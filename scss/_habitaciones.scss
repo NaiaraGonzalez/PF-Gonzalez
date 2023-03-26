@@ -1,0 +1,60 @@
+/* empieza las habitaciones */
+body {
+  font: $body-font;
+
+  header {
+    background-color: $color-header-footer;
+    padding: 0.5rem;
+
+    h1 {
+      color: $color-h1;
+      text-align: center;
+      .animacion {
+        font-size: 11rem;
+        background: linear-gradient(#bacde0, #597fa8, #31469c);
+        animation: title 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      @keyframes title {
+        to {
+          background-position: 400% 0;
+        }
+      }
+    }
+  }
+  main {
+    background-color: $color-main;
+    section {
+      .parrafo2 {
+        border-style: $border-style;
+        text-align: center;
+        align-content: center;
+        width: 15rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .img6 {
+        align-content: center;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+      }
+      .habitaciones {
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  footer {
+    background-color: $color-header-footer;
+    i {
+      font-size: 3rem;
+      color: $color-i;
+    }
+  }
+}
+/* termina habitaciones */

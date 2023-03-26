@@ -1,0 +1,66 @@
+/* empieza el hotel */
+body {
+  font: $body-font;
+  header {
+    background-color: $color-header-footer;
+    padding: 0.5rem;
+
+    h1 {
+      color: $color-h1;
+      text-align: center;
+      .animacion {
+        font-size: 11rem;
+        background: linear-gradient(#bacde0, #597fa8, #31469c);
+        animation: title 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      @keyframes title {
+        to {
+          background-position: 400% 0;
+        }
+      }
+    }
+  }
+  main {
+    background-color: $color-main;
+    h3 {
+      text-align: center;
+      align-content: right;
+      width: 25rem;
+      margin-top: 2rem;
+      border-style: $border-style;
+    }
+    .texto1 {
+      padding-left: 0.1rem;
+      border-style: $border-style;
+    }
+    .img3 {
+      max-width: $imgs;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    section {
+      .img4 {
+        max-width: $imgs;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+      }
+    }
+    section {
+      .img5 {
+        max-width: $imgs;
+        margin-top: 4rem;
+      }
+    }
+  }
+  footer {
+    background-color: $color-header-footer;
+    i {
+      font-size: 3rem;
+      color: $color-i;
+    }
+  }
+}
+/* termina el hotel */

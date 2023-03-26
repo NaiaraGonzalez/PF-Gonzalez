@@ -1,0 +1,306 @@
+@media (min-width: 320px) {
+  .mapa-link {
+    width: 100%;
+    height: 360px;
+  }
+}
+@media (min-width: 600px) {
+  .mapa-link {
+    width: 75%;
+    height: 450px;
+  }
+}
+@media (min-width: 1024px) {
+  .mapa-link {
+    width: 50%;
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .mapa-link {
+    width: 35%;
+    height: 400px;
+  }
+}
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+  padding: 0.5rem;
+}
+body header h1 {
+  color: #231f20;
+  text-align: center;
+}
+body header h1 .animacion {
+  font-size: 11rem;
+  background: linear-gradient(#bacde0, #597fa8, #31469c);
+  animation: title 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes title {
+  to {
+    background-position: 400% 0;
+  }
+}
+body header .row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+}
+body header .nav {
+  align-content: center;
+}
+body header .nav .nav-item {
+  align-items: center;
+}
+body main {
+  background-color: #597fa8;
+}
+body main .section1 .img1 {
+  max-width: 100%;
+  width: 30rem;
+  margin-top: 1.5rem;
+  margin-right: 4rem;
+}
+body main .section1 .img2 {
+  max-width: 100%;
+  margin-top: 1.5rem;
+  width: 35rem;
+}
+body section .form-index {
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  background-color: #bbcde1;
+}
+footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina index */
+/* empieza el hotel */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+  padding: 0.5rem;
+}
+body header h1 {
+  color: #231f20;
+  text-align: center;
+}
+body header h1 .animacion {
+  font-size: 11rem;
+  background: linear-gradient(#bacde0, #597fa8, #31469c);
+  animation: title 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes title {
+  to {
+    background-position: 400% 0;
+  }
+}
+body main {
+  background-color: #597fa8;
+}
+body main h3 {
+  text-align: center;
+  align-content: right;
+  width: 25rem;
+  margin-top: 2rem;
+  border-style: solid;
+}
+body main .texto1 {
+  padding-left: 0.1rem;
+  border-style: solid;
+}
+body main .img3 {
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+body main section .img4 {
+  max-width: 100%;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+body main section .img5 {
+  max-width: 100%;
+  margin-top: 4rem;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina el hotel */
+/* empieza las habitaciones */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+  padding: 0.5rem;
+}
+body header h1 {
+  color: #231f20;
+  text-align: center;
+}
+body header h1 .animacion {
+  font-size: 11rem;
+  background: linear-gradient(#bacde0, #597fa8, #31469c);
+  animation: title 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes title {
+  to {
+    background-position: 400% 0;
+  }
+}
+body main {
+  background-color: #597fa8;
+}
+body main section .parrafo2 {
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  width: 15rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+body main section .img6 {
+  align-content: center;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+body main section .habitaciones {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina habitaciones */
+/* empieza el entorno */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body header h1 {
+  color: #231f20;
+  text-align: center;
+}
+body header h1 .animacion {
+  font-size: 11rem;
+  background: linear-gradient(#bacde0, #597fa8, #31469c);
+  animation: title 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes title {
+  to {
+    background-position: 400% 0;
+  }
+}
+body main {
+  background-color: #597fa8;
+}
+body main .parrafo4 {
+  text-align: center;
+  margin-top: 2rem;
+  border-style: solid;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina entorno */
+/* empieza consultas frecuentes */
+body {
+  font: "Libre Baskerville", serif;
+}
+body header {
+  background-color: #bbcde1;
+}
+body header h1 {
+  color: #231f20;
+  text-align: center;
+}
+body header h1 .animacion {
+  font-size: 11rem;
+  background: linear-gradient(#bacde0, #597fa8, #31469c);
+  animation: title 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@keyframes title {
+  to {
+    background-position: 400% 0;
+  }
+}
+body main {
+  background-color: #597fa8;
+}
+body main .parrafo5 {
+  margin-bottom: 5rem;
+  text-align: center;
+  border-style: solid;
+}
+body main .parrafo6 {
+  margin-bottom: 5rem;
+  border-style: solid;
+  text-align: center;
+}
+body main .parrafo7 {
+  margin-bottom: 5rem;
+  border-style: solid;
+  text-align: center;
+}
+body main .parrafo8 {
+  border-style: solid;
+  text-align: center;
+}
+body footer {
+  background-color: #bbcde1;
+}
+body footer i {
+  font-size: 3rem;
+  color: black;
+}
+
+/* termina consultas frecuentes */
+
+/*# sourceMappingURL=styles.css.map */

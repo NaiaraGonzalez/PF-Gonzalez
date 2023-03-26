@@ -1,0 +1,41 @@
+/* empieza el entorno */
+body {
+  font: $body-font;
+  header {
+    background-color: $color-header-footer;
+
+    h1 {
+      color: $color-h1;
+      text-align: center;
+      .animacion {
+        font-size: 11rem;
+        background: linear-gradient(#bacde0, #597fa8, #31469c);
+        animation: title 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      @keyframes title {
+        to {
+          background-position: 400% 0;
+        }
+      }
+    }
+  }
+  main {
+    background-color: $color-main;
+    .parrafo4 {
+      text-align: center;
+      margin-top: 2rem;
+      border-style: $border-style;
+    }
+  }
+  footer {
+    background-color: $color-header-footer;
+    i {
+      font-size: 3rem;
+      color: $color-i;
+    }
+  }
+}
+/* termina entorno */
